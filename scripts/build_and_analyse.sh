@@ -78,4 +78,3 @@ fi
 
 echo "Running Sonar Analysis"
 "$HOME/${SONAR_TOOLS_DIR}"/sonar-scanner-3.2.0.1227-linux/bin/sonar-scanner -X
-
