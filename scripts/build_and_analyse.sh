@@ -66,9 +66,9 @@ if ! [ -d "$HOME/${SONAR_TOOLS_DIR}" ]; then
         echo "Deleting existing conf file"
         rm $HOME/${SONAR_TOOLS_DIR}/sonar-scanner-3.2.0.1227-linux/conf/sonar-scanner.properties
     fi
-    echo "Copying conf file"
-    echo "current folder"
-    echo $PWD
+    echo "current folder is:"
+    echo $PWD    
+    echo "Copying configuration file"
     cp sonar-scanner.properties $HOME/${SONAR_TOOLS_DIR}/sonar-scanner-3.2.0.1227-linux/conf/
 else
     echo "Sonar tools dir already exists; skipping uncompress step."
