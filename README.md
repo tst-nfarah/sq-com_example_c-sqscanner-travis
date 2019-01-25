@@ -1,6 +1,6 @@
 # C SQ-Scanner-based project analyzed on SonarCloud using Travis
 
-[![Build status](https://travis-ci.org/SonarSource/sq-com_example_c-sqscanner-travis.svg?branch=master)](https://travis-ci.org/SonarSource/sq-com_example_c-sqscanner-travis) [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=com.sonarqube.examples.c-sqscanner-travis-project&metric=alert_status)](https://sonarcloud.io/dashboard/index/com.sonarqube.examples.c-sqscanner-travis-project)
+[![Build status](https://travis-ci.org/tst-nfarah/sq-com_example_c-sqscanner-travis.svg?branch=master)](https://travis-ci.org/tst-nfarah/sq-com_example_c-sqscanner-travis) [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=com.sonarqube.examples.c-sqscanner-travis-project&metric=alert_status)](https://sonarcloud.io/dashboard/index/com.sonarqube.examples.c-sqscanner-travis-project)
 
 #### This project is analysed on [SonarCloud](https://sonarcloud.io)!
 
@@ -13,9 +13,9 @@ It is very easy to run an analysis on a C/C++/Objective-C project and push it to
    3. Run `sonar-scanner` later on
 
 You can take a look at the
-[sonar-project.properties](https://github.com/SonarSource/sq-com_example_c-sqscanner-travis/blob/master/sonar-project.properties)
+[sonar-project.properties](https://travis-ci.org/tst-nfarah/sq-com_example_c-sqscanner-travis/blob/master/sonar-project.properties)
 and
-[.travis.yml](https://github.com/SonarSource/sq-com_example_c-sqscanner-travis/blob/master/.travis.yml)
+[.travis.yml](https://travis-ci.org/tst-nfarah/sq-com_example_c-sqscanner-travis/blob/master/.travis.yml)
 files of this project to see it in practice.
 
 ## Links
