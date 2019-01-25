@@ -12,8 +12,9 @@ env:
     
 
 cache:
+  timeout: 600
   directories:
-    - '$HOME/.sonar/cache'
+    - $HOME/cache
 
 jobs:
   include:
