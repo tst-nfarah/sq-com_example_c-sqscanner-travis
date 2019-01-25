@@ -54,6 +54,8 @@ else
   echo "Sonar analyzer tool zip already exists in the cache; skipping download."
 fi
 
+echo "current folder"
+echo $PWD
 
 if ! [ -d "$HOME/${SONAR_TOOLS_DIR}" ]; then
     mkdir "$HOME/${SONAR_TOOLS_DIR}"
